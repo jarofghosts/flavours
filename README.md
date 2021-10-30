@@ -79,7 +79,7 @@ shell = "bash -c '{}'"
 
 # Sway supports the default '#' comments, so it can be ommited
 # 'rewrite' is also ommited, as it defaults to false
-[[items]]
+[[item]]
 file = "~/.config/sway/config"
 template = "sway"
 subtemplate = "colors"
@@ -88,13 +88,13 @@ hook = "swaymsg reload"
 light = false
 
 # This one uses waybar 'default' subtemplate, so it can be ommited
-[[items]]
+[[item]]
 file = "~/.config/waybar/colors.css"
 template = "waybar"
 # Waybar uses a separate color file, so we can safely rewrite the whole file
 rewrite = true
 
-[[items]]
+[[item]]
 file = "~/.config/beautifuldiscord/style.css"
 template = "styles"
 subtemplate = "css-variables"
